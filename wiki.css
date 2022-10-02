@@ -1,0 +1,119 @@
+#box1{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    left: 300px;
+    /* top: 5px; */
+    position: relative;
+}
+.wiki{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+.grid-container{
+    width: 500px;
+    height: 500px;
+    /* background-color: beige; */
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+.grid-items{
+    /* height: 100px; */
+    width: 160px;
+    height: 10px;
+    /* background-color: aliceblue; */
+}
+.pedia{
+    position: absolute;
+    /* font-size: 2em; */
+    margin-top: 20px;
+    margin-left: 250px;
+    text-align: center;
+}
+h5{
+    color: blue;
+}
+.grid-items:nth-of-type(1){
+margin-left: 20px;
+margin-top: 50px;
+
+}
+.grid-items:nth-of-type(2){
+    margin-left: 130px;
+    margin-top: 45px;   
+}
+.grid-items:nth-of-type(3){
+    margin-left: -40px;
+    /* margin-top: -10px;  */
+}
+.grid-items:nth-of-type(4){
+    margin-left: 180px;
+    /* margin-top: 0px;  */
+}
+.grid-items:nth-of-type(5){
+    margin-left: -60px;
+    /* margin-top: -10px;  */
+}
+.grid-items:nth-of-type(6){
+    margin-left: 200px;
+    /* margin-top: 0px;  */
+}
+.grid-items:nth-of-type(7){
+    margin-left: -40px;
+    /* margin-top: -10px;  */
+}
+.grid-items:nth-of-type(8){
+    margin-left: 150px;
+    /* margin-top: 0px;  */
+}
+.grid-items:nth-of-type(9){
+    margin-left: 50px;
+    /* margin-top: -10px;  */
+}
+.grid-items:nth-of-type(10){
+    margin-left: 80px;
+    /* margin-top: 0px;  */
+}
+#selet{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    top: 580px;
+    left: 100px;
+}
+#search{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    top: 580px;
+    left: 450px;
+}
+#grid-container2{
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+    grid-template-columns: 30% repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    display: grid;
+}
+.grid-items2{
+    /* margin: 10px; */
+    /* background-color: bisque; */
+    text-align: center;
+    text-align: justify center;
+    text-decoration: none;
+    /* height: 10px; */
+    
+}
+.grid-items2:nth-of-type(5){
+    grid-row: 2/5;
+}

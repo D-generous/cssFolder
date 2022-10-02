@@ -1,0 +1,67 @@
+#grid-container {
+    margin: auto;
+    border: thick solid green;
+    /* padding: 10px; */
+    width: 80%;
+    min-height: 70vh;    
+    display: grid;
+    /* grid-template-columns: 90% 15% 15%; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    /* gap: 10px 20px;     */
+    gap: 10px;
+    /* grid-auto-rows: 300px; */
+    /* grid-auto-rows: minmax(150px, auto);     */
+    /* grid-template-rows: 1fr 3fr 1fr; */
+    /* grid-template-rows: repeat(3, 1fr);     */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: space-between; */
+}
+
+.grid-item {
+    background-color: blue;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+    /* height: 50px; */
+    /* margin: 10px; */
+}
+/* 
+.grid-item:nth-of-type(2) {
+    height: 60px;
+    width: 100px;
+    align-self: end;
+    justify-self: end;
+} */
+
+/* Spanning Grid Items columns */
+.grid-item:nth-of-type(1) {
+    background-color: red;
+/*     
+    grid-column-start: 1;
+    grid-column-end: 4; */
+
+    grid-column: 1/4;
+
+}
+
+
+/* Spanning Grid Items row */
+.grid-item:nth-of-type(3) {
+    background-color: green;
+    grid-row: 2/6;
+}
+
+
+@media (max-width: 600px) {    
+    .grid-item {
+        grid-column: 1/4;
+    }
+}
+
+a[href="https://css-tricks.com"] {
+    color: blue;
+  }

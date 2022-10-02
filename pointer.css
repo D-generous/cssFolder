@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.box{
+    margin: 200px auto ;
+    /* padding: 300px 400px; */
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 30%;
+    /* box-shadow: 10px 10px 10px red; */
+    animation: point 2s linear infinite;
+}
+@keyframes point{
+    from{
+        transform: scale(50%);
+    }
+
+    to{
+        transform: scale(200%);
+        background-color: red;
+    }
+
+}

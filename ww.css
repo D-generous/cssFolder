@@ -1,0 +1,21 @@
+#head{
+    background-color: #00A884;
+    height: 55mm;
+    width: 100%;
+    padding-left: 70px;
+    padding-top: 2px;
+}
+
+#box{
+    height: 200mm;
+    width: 75%;
+    background-color: white;
+    margin: -100px auto;
+    border-radius: 1%;
+}
+#qr{
+    height: 5px;
+    width: 5%;
+    margin:-710px 700px;
+}
+

@@ -1,0 +1,126 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    padding: 0 50px;
+    font-size: 2em;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+nav{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 50px; */
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+    /* margin: 20px; */
+    padding: 10px;
+    
+}
+
+.main-nav-link{
+    list-style: none;
+    position: relative;
+}
+
+.main-nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    /* padding: 1rem; */
+
+}
+
+.main-nav-link:hover{
+    background-color: blue;
+    /* text-decoration: overline black; */
+    /* color: black; */
+}
+.link {
+    position: absolute;
+    display: none;
+    height: 200px;
+    width: 400px;
+    line-height: 50px;
+    font-size: 2em;
+    overflow: auto;
+    background-color: red;
+    padding: 30px 30px;
+    list-style: none;
+    line-height: 70px;
+    position: fixed;
+    
+
+
+}
+.link a{
+    /* text-decoration: dashed ; */
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-nav-link:hover ul{
+    display: block;
+}
+
+.link li:hover{
+    background-color: green;
+    text-decoration: underline;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    width: 30px;
+    height: 21px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toggle-button .bar{
+    height: 5px;
+    width: 30px;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px){
+    .toggle-button{
+        display: flex;
+    }
+    
+    .list{
+        display: none;
+    }
+
+    .nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list,.main-nav-link{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 1px;
+    }
+
+    ..list,.main-nav-link a{
+        /* padding: 5px; */
+    }
+
+    .list.active{
+        display: flex;
+    }
+}

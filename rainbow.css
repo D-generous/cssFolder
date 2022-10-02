@@ -1,0 +1,40 @@
+/* #parentbox{
+    position: relative;
+    margin: 200px 350px;
+    background-color:beige;
+    height: 300px;
+    width: 500px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    background-color: white;
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px #2C009C,
+                0 0 0 40px #000084,
+                0 0 0 60px #009CFE,
+                0 0 0 80px #00BC00,
+                0 0 0 100px #FEF600,
+                0 0 0 120px #FE622C,
+                0 0 0 140px #DE0000;
+
+}
+
+#box2{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+}

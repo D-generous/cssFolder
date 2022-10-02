@@ -1,0 +1,17 @@
+#box{
+    height: 700px;
+    width: 100%;
+    /* margin: auto; */
+    /* background-color: white; */
+    background-image: linear-gradient(rgba(0, 0, 0, 70%),rgba(0, 0, 0, 70%)),url('./photo folder/G.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#box2{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 70%), rgba(255, 255, 255, 70%)), url('./photo folder/busy-street-in-singapore-at-night.jpg');
+
+}

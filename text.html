@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gen{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+        }
+        
+        .gen-item{
+            text-align: center;
+            border: 1px solid gray;
+            height: 200px;
+        }
+
+        .img{
+            width: 70%;
+        }
+
+        @media screen and (max-width:1000px){
+            .gen{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+        }
+        
+        .gen-item{
+            text-align: center;
+            border: 1px solid gray;
+            background-color: rgb(16, 184, 100);
+            height: 200px;
+        }
+
+        .img{
+            border-radius: 50%;
+        }
+        }
+
+        @media screen and (max-width:600px){
+            .gen{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 5px;
+        }
+        
+        .gen-item{
+            text-align: center;
+            border: 1px solid gray;
+            background-color: blue;
+            height: 200px;
+        }
+
+        .img{
+            border-radius: 50%;
+            height: 400px;
+        }
+        }
+
+        
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="gen">
+        <div class="gen-item">h</div>
+        <div class="gen-item">m</div>
+        <div class="gen-item">k</div>
+        <div class="gen-item"></div>
+        <div class="gen-item"></div>
+        <div class="gen-item"></div>
+        <div class="gen-item"></div>
+        <div class="gen-item"></div>
+    </div>
+    <div>
+        <img class="img" src="./photo folder/car1.jpg" alt="">
+    </div>
+</body>
+</html>

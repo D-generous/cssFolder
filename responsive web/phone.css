@@ -1,0 +1,10 @@
+section {
+   flex-direction: column;
+}
+
+section div {
+    width: 80%;
+    background-color: red;
+    margin: auto;
+}
+

@@ -1,0 +1,165 @@
+.background{
+    position: relative;
+    background-image: url('./photo folder/backgroung\ image\ planet.jpg');
+    width: 100%;
+    height: 100vh;
+}
+#sun{
+    position: absolute;
+    margin: 80px 0;
+    z-index: 4;
+}
+#circle{
+    position: absolute;
+    border: thin solid white;
+    width: 200px;
+    height: 100px;
+    margin: 300px 285px;
+    border-radius: 50%;
+}
+#c2{
+    position: absolute;
+    border: thin solid white;
+    width: 270px;
+    height: 110px;
+    margin: 295px 285px;
+    border-radius: 50%;
+}
+#c3{
+    position: absolute;
+    border: thin solid white;
+    width: 340px;
+    height: 120px;
+    margin: 290px 285px;
+    border-radius: 50%;
+}
+#c4{
+    position: absolute;
+    border: thin solid white;
+    width: 420px;
+    height: 130px;
+    margin: 285px 285px;
+    border-radius: 50%;
+}
+#c5{
+    position: absolute;
+    border: thin solid white;
+    width: 500px;
+    height: 140px;
+    margin: 280px 285px;
+    border-radius: 50%;
+}
+#c6{
+    position: absolute;
+    border: thin solid white;
+    width: 600px;
+    height: 150px;
+    margin: 275px 285px;
+    border-radius: 50%;
+}
+#c7{
+    position: absolute;
+    border: thin solid white;
+    width: 700px;
+    height: 160px;
+    margin: 270px 285px;
+    border-radius: 50%;
+}
+#c8{
+    position: absolute;
+    border: thin solid white;
+    width: 800px;
+    height: 170px;
+    margin: 265px 285px;
+    border-radius: 50%;
+}
+#img1{
+    /* position: absolute; */
+    width: 60px;
+    height: 60px;
+    margin: 15px 160px;
+}
+#img2{
+    width: 70px;
+    height: 70px;
+    margin: 15px 215px;
+
+}
+#img3{
+    width: 80px;
+    height: 80px;
+    margin: 15px 290px;
+}
+#img4{
+    width: 60px;
+    height: 60px;
+    margin: 30px 375px;
+}
+#img5{
+    width: 100px;
+    height: 100px;
+    margin: 20px 440px;
+}
+#img6{
+    width: 150px;
+    height: 150px;
+    margin: 1px 510px;
+}
+#img7{
+    width: 70px;
+    height: 70px;
+    margin: 35px 650px;
+}
+#img8{
+    width: 60px;
+    height: 60px;
+    margin: 50px 760px;
+}
+#w1{
+    position: absolute;
+    font-size: 1em;
+    margin: 380px 450px;
+    color: white;
+}
+#w2{
+    position: absolute;
+    font-size: 1em;
+    margin: 295px 505px;
+    color: white;
+}
+#w3{
+    position: absolute;
+    font-size: 1em;
+    margin: 385px 600px;
+    color: white;
+}
+#w4{
+    position: absolute;
+    font-size: 1em;
+    margin: 295px 670px;
+    color: white;
+}
+#w5{
+    position: absolute;
+    font-size: 1em;
+    margin: 395px 750px;
+    color: white;
+}
+#w6{
+    position: absolute;
+    font-size: 1em;
+    margin: 285px 820px;
+    color: white;
+}
+#w7{
+    position: absolute;
+    font-size: 1em;
+    margin: 380px 960px;
+    color: white;
+}
+#w8{
+    position: absolute;
+    font-size: 1em;
+    margin: 290px 1050px;
+    color: white;
+}

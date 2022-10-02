@@ -1,0 +1,15 @@
+#box{
+    height: 300px;
+    width: 100%;
+    font-size: 8em;
+    text-align: center;
+    margin-top: 200px ;
+    background-image: url('./photo folder/fire-burning.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    /* color: transparent; */
+}
+body{
+    /* background-color: black; */
+}

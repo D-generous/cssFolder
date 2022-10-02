@@ -1,0 +1,120 @@
+@keyframes tyre {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 10px 50%;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        background-color: blue;
+        border-radius: 50%;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(300px, 0);
+    }
+
+    50% {
+        transform: translate(300px, 300px);
+    }
+    
+    75% {
+        transform: translate(-300px, 300px);
+    }
+    
+    100% {
+        transform: translate(-300px, -300kjhpx);
+        background-color: blue;
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(20%);
+    }
+
+    to {
+        transform: scale(150%);
+        background-color: green;
+    }
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 100px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: scale;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+    /* animation-direction: reverse; */
+    animation-delay: 3s;
+    /* animation-play-state: paused; */
+}
+
+
+
+
+body {
+    perspective: 1000px;
+}
+
+
+ img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    color: red;
+    /* filter: grayscale(100%); */
+    /* filter: blur(100px); */
+    /* filter: brightness(50%); */
+    /* filter: contrast(200%); */
+    /* filter: drop-shadow(-10px 100px 0px blue); */
+    /* filter: hue-rotate(200deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(0.5); */
+    /* filter: saturate(50%); */
+    /* filter: sepia(100%); */
+
+    /* transform: translate(100px, -100px); */
+    /* transform: rotateX(50deg) rotateY(10deg) translate(50px); */
+    /* transform: scale(50%) skew(20deg, 20deg); */
+ }
+
+
+ section {
+     display: flex;
+     min-height: 80vh;
+     border: thick solid blue;
+     perspective: 1000px;
+ }
+
+ section div {
+     background-color: blue;
+     width: 30%;
+     height: 250px;
+     margin: 10px;
+ }
+
+section div:nth-child(even) {
+    /* transform: translate(100px, 50px); */
+    /* transform: rotateY(60deg); */
+    /* transform: scale(1.5, 1); */
+    /* transform: skew(20 deg); */
+
+    background-color: red;
+    /* align-self: flex-end; */
+}

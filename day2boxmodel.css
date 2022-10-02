@@ -1,0 +1,7 @@
+#box{
+    border: thick solid green;
+    min-height: 20mm;
+    width: 50%;
+    overflow: auto;
+    padding: 50px 10px 100px 30px;
+}

@@ -1,0 +1,22 @@
+#box {
+    /* border: thick solid green; */
+    min-height: 80vh;
+    width: 100%;
+    /* overflow: auto; */
+    /* padding: 50px 0 30px 100px; */
+    /* margin: 50px auto -30px auto; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* float: right; */
+    font-size: 10em;
+    text-align: center;
+    background-color: rgb(255,37,37);
+    background-image: conic-gradient(rgba(255,37,37, 50%),rgba(0, 255, 0, 50%), yellow), url('./photo folder/idogho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0 70px; */
+    background-attachment:scroll;
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    /* background: ; */
+}
